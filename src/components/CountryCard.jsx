@@ -6,7 +6,7 @@ const CountryCard = ({ singleCountry }) => {
     <div className="countryCard">
       <img
         src={singleCountry.flag}
-        alt=""
+        alt={singleCountry.abbr}
         style={{ width: "100px", height: "100px" }}
       />
       <h3>{singleCountry.name}</h3>
